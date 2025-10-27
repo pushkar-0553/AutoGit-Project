@@ -1,0 +1,25 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node / build files
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# Ignore archives and binaries
+*.zip
+*.rar
+*.exe
+*.log
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore temporary folders
+temp/
+__pycache__/
